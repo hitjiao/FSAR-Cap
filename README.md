@@ -1,2 +1,16 @@
 # FSAR-Cap
  a large-scale SAR captioning dataset with 14,480 images and 72,400 image–text pairs.
+Synthetic Aperture Radar (SAR) image captioning enables scene-level semantic understanding and plays a crucial role in applications such as military intelligence and urban planning, but its development is limited by the scarcity of high-quality datasets. To address this, we present FSAR-Cap, a large-scale SAR captioning dataset with 14,480 images and 72,400 image–text pairs. FSAR-Cap is built on the FAIR-CSAR detection dataset and constructed through a two-stage annotation strategy that combines hierarchical template-based representation, manual verification and supplementation, prompt standardization. Compared with existing resources, FSAR-Cap provides richer fine-grained annotations, broader category coverage, and higher annotation quality. Benchmarking with multiple encoder–decoder architectures verifies its effectiveness, establishing a foundation for future research in SAR captioning and intelligent image interpretation. 
+
+In future work, FSAR-Cap can serve as a valuable benchmark for the community. We anticipate the emergence of captioning models specifically tailored for SAR imagery, and the dataset may further facilitate the development of more robust and generalizable VLMs in the SAR domain.
+
+The dataset will be released shortly. We welcome its use and citation.
+
+The annotation method is as follows:
+![caption步骤](https://github.com/user-attachments/assets/c76f24d8-7d50-4b31-90d4-ce9afd25aa18)
+
+The analysis of the labeled data is as follows:
+![radar1](https://github.com/user-attachments/assets/11ecdb06-f505-4d75-a18e-f60682167b51)
+
+Here is an example:
+![case](https://github.com/user-attachments/assets/522963e9-6cc0-48bd-a0a9-897155a837b1)
