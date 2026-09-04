@@ -1,6 +1,8 @@
 # 🛰️ FSAR-Cap: A Large-Scale Fine-Grained SAR Image Captioning Dataset
 
 ## 📖 Introduction
+> 📢 :** Our paper has been officially accepted by **IEEE Geoscience and Remote Sensing Letters (GRSL)**! The dataset and code are now publicly available.
+
 Synthetic Aperture Radar (SAR) image captioning enables scene-level semantic understanding and plays a crucial role in applications such as military intelligence, disaster monitoring, and urban planning. However, its development is severely constrained by the scarcity of high-quality, large-scale datasets.
 
 To bridge this gap, we proudly present **FSAR-Cap**—a large-scale, fine-grained SAR image captioning dataset comprising **14,480 images** and **72,400 image-text pairs**. Built upon the FAIR-CSAR detection dataset, FSAR-Cap is constructed through a rigorous **two-stage annotation strategy** that integrates:
